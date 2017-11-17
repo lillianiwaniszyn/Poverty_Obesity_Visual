@@ -491,4 +491,3 @@ var legend = d3.select("body").append("svg")
 
 });
 }
-		
