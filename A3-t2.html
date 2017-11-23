@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
 <meta charset="utf-8">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="uStates.js"></script> <!-- creates uStates. -->
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<style type="text/css">
-
-/* On mouse hover, lighten state color */
-path:hover {
-	fill-opacity: .7;
-}
+<style>
+	.state{
+		fill: none;
+		stroke: #a9a9a9;
+		stroke-width: 1;
+	}
+	.state:hover{
+		fill-opacity:0.5;
+	}
 	#tooltip {   
 		position: absolute;           
 		text-align: center;
@@ -49,8 +47,7 @@ path:hover {
 	#tooltip tr td:nth-child(2){
 		text-align:center;
 	}
-        
-/* Legend Font Style */
+	/* Legend Font Style */
 body {
 	font: 11px sans-serif;
 }
@@ -69,26 +66,27 @@ body {
     position: absolute;
     top: 50%;
 }
-
-
 </style>
-</head>
 <body>
-<div id="tooltip"></div><!-- div to hold tooltip. -->
   <header>
     <h1 align="center" >CPSC 583 Assignment 3</h1>
 	<h2 align="center" >Poverty Rates, Obesity Rates, and favorite cereals visualized</h2>
 	<p align="center">Click buttons below to see trends on map</p>
 
   </header>
-  <div class="wrapper">
+    <div class="wrapper">
 	<button type="button" onclick="displayExercise()">Percentage of population that exercises</button>
 	<button type="button" onclick="obesityPercent()">Percentage of people with obese weight</button>
 	<button type="button" onclick="povertyRate()">Poverty Rate</button>
 	</div>
+<div id="tooltip"></div><!-- div to hold tooltip. -->
+<svg width="1400" height="600" id="statesvg"></svg> <!-- svg to hold the map. -->
 
-<script src="A3.js"></script>
+<script src="uStates.js"></script> <!-- creates uStates. -->
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="A3-p2.js"></script>
+
 
 
 </body>
-</html>

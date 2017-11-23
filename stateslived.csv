@@ -1,52 +1,52 @@
-state,visited,exercise,povRate,goodWeight,overWeight
-Alabama,3,2,1,3,1
-Alaska,1,0,0,2,1
-Arizona,1,1,2,1,1
-Arkansas,3,2,1,2,1
-California,1,1,1,0,1
-Colorado,0,0,0,0,1
-Connecticut,0,0,0,0,2
-Delaware,2,1,0,2,1
-District of Columbia,0,1,2,0,0
-Florida,2,2,1,1,2
-Georgia,2,1,2,2,1
-Hawaii,0,0,0,0,1
-Idaho,1,0,0,2,2
-Illinois,2,1,0,1,2
-Indiana,2,1,1,2,1
-Iowa,2,1,0,2,1
-Kansas,2,1,0,2,1
-Kentucky,3,3,2,3,3
-Louisiana,3,2,2,2,0
-Maine,2,1,0,1,2
-Maryland,2,1,0,1,1
-Massachusetts,0,1,0,0,2
-Michigan,3,1,1,2,1
-Minnesota,1,0,0,1,1
-Mississippi,3,3,3,3,1
-Missouri,3,2,1,2,1
-Montana,1,0,0,1,3
-Nebraska,2,1,0,2,2
-Nevada,1,1,0,1,2
-New Hampshire,1,0,0,1,1
-New Jersey,1,2,0,1,2
-New Mexico,1,1,2,1,1
-New York,1,1,1,1,1
-North Carolina,3,1,1,2,1
-North Dakota,2,1,0,2,2
-Ohio,3,1,1,2,1
-Oklahoma,3,2,1,2,1
-Oregon,1,0,0,1,1
-Pennsylvania,2,1,0,1,0
-Rhode Island,1,1,0,1,3
-South Carolina,3,1,1,2,1
-South Dakota,2,1,0,2,2
-Tennessee,3,3,1,3,1
-Texas,3,2,2,2,2
-Utah,1,0,0,0,1
-Vermont,1,0,0,0,1
-Virginia,1,1,0,1,1
-Washington,2,0,0,1,1
-West Virginia,3,2,1,3,2
-Wisconsin,2,0,0,1,1
-Wyoming,1,1,0,1,2
+state,visited,exercise,povRate,overWeight,colour,good,Overweight,Obese,circColour
+Alabama,3,2,1,1,#ff6961,33.4,35.7,30.9,#FF69B4
+Alaska,1,0,0,1,#fdfd96,34.8,36.9,28.2,#FF69B5
+Arizona,1,1,2,1,#fdfd96,37.3,36.8,25.8,#FF69B6
+Arkansas,3,2,1,1,#ff6961,34.4,36.3,29.3,#FF69B7
+California,1,1,1,1,#fdfd96,41,35.7,23.3,#FF69B8
+Colorado,0,0,0,1,#77dd77,44.4,36.4,19.3,#FF69B9
+Connecticut,0,0,0,2,#77dd77,40.8,37.5,21.7,#FF69B10
+Delaware,2,1,0,1,#ffb347,34.9,36.8,28.2,#FF69B11
+District of Columbia,0,1,2,0,#77dd77,44.7,33.1,22.2,#FF69B12
+Florida,2,2,1,2,#ffb347,37.9,38,24.1,#FF69B13
+Georgia,2,1,2,1,#ffb347,35,36.3,28.7,#FF69B14
+Hawaii,0,0,0,1,#77dd77,43.2,35.1,21.7,#FF69B15
+Idaho,1,0,0,2,#fdfd96,36.9,38,25.1,#FF69B16
+Illinois,2,1,0,2,#ffb347,37,37.4,25.6,#FF69B17
+Indiana,2,1,1,1,#ffb347,36.8,35.8,27.4,#FF69B18
+Iowa,2,1,0,1,#ffb347,35.3,37,27.7,#FF69B19
+Kansas,2,1,0,1,#ffb347,36.2,36.1,27.7,#FF69B20
+Kentucky,3,3,2,3,#ff6961,30.9,40.4,28.7,#FF69B21
+Louisiana,3,2,2,0,#ff6961,34.8,34.5,30.7,#FF69B22
+Maine,2,1,0,2,#ffb347,37,37.7,25.2,#FF69B23
+Maryland,2,1,0,1,#ffb347,37.3,36.4,26.3,#AA0055
+Massachusetts,0,1,0,2,#77dd77,41.1,37.2,21.7,#AA0056
+Michigan,3,1,1,1,#ff6961,35.7,36.1,28.2,#AA0057
+Minnesota,1,0,0,1,#fdfd96,38,36,26,#AA0058
+Mississippi,3,3,3,1,#ff6961,31.9,35.5,32.6,#AA0059
+Missouri,3,2,1,1,#ff6961,36.7,35.1,28.2,#AA0060
+Montana,1,0,0,3,#fdfd96,38.2,39.2,22.6,#AA0061
+Nebraska,2,1,0,2,#ffb347,35.3,38.2,26.5,#AA0062
+Nevada,1,1,0,2,#fdfd96,37,38.4,24.6,#AA0063
+New Hampshire,1,0,0,1,#fdfd96,38.2,36.7,25.1,#AA0064
+New Jersey,1,2,0,2,#fdfd96,37.7,38.2,24.1,#5500AA
+New Mexico,1,1,2,1,#fdfd96,39.2,35.7,25.1,#5500AA
+New York,1,1,1,1,#fdfd96,38,36.4,25.5,#5500AA
+North Carolina,3,1,1,1,#ff6961,35.4,35.9,28.7,#5500AA
+North Dakota,2,1,0,2,#ffb347,35.1,37.9,27,#5500AA
+Ohio,3,1,1,1,#ff6961,36.5,35.4,28.1,#5500AA
+Oklahoma,3,2,1,1,#ff6961,34.9,36.3,28.8,#5500AA
+Oregon,1,0,0,1,#fdfd96,37.9,35.7,26.3,#5500AA
+Pennsylvania,2,1,0,0,#ffb347,37.4,34.9,27.8,#5500AA
+Rhode Island,1,1,0,3,#fdfd96,39.2,39.1,21.7,#5500AA
+South Carolina,3,1,1,1,#ff6961,34.7,36.3,29,#5500AA
+South Dakota,2,1,0,2,#ffb347,34.5,38.3,27.2,#5500AA
+Tennessee,3,3,1,1,#ff6961,32.6,36.7,30.7,#5500AA
+Texas,3,2,2,2,#ff6961,34.3,37.2,28.6,#5500AA
+Utah,1,0,0,1,#fdfd96,42.1,35.6,22.4,#5500AA
+Vermont,1,0,0,1,#fdfd96,41.2,36.9,21.9,#5500AA
+Virginia,1,1,0,1,#fdfd96,38.2,36.6,25.3,#5500AA
+Washington,2,0,0,1,#ffb347,37.9,36.2,25.9,#5500AA
+West Virginia,3,2,1,2,#ff6961,32,37.7,30.3,#5500AA
+Wisconsin,2,0,0,1,#ffb347,37.7,37,25.3,#5500AA
+Wyoming,1,1,0,2,#fdfd96,37.8,37.7,24.5,#5500AA
