@@ -1,52 +1,52 @@
-state,visited,exercise,povRate,overWeight,colour,good,Overweight,Obese,circColour,favCereal,cerealLink
-Alabama,3,2,1,1,#ff6961,33.4,35.7,30.9,#FF69B4,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg
-Alaska,1,0,0,1,#fdfd96,34.8,36.9,28.2,#FF69B5,Shredded Wheat,https://i5.walmartimages.ca/images/Large/03_/rev/62815402003_rev.jpg?odnBound=460
-Arizona,1,1,2,1,#fdfd96,37.3,36.8,25.8,#FF69B6,Rice Krispies,https://images-na.ssl-images-amazon.com/images/I/91wQJ7zL0hL._SL1500_.jpg
-Arkansas,3,2,1,1,#ff6961,34.4,36.3,29.3,#FF69B7,Raisin Bran,http://images.kglobalservices.com/www.kelloggs.com/en_us/product/product_4508651/kicproductimage-127056_rb_2016.jpeg
-California,1,1,1,1,#fdfd96,41,35.7,23.3,#FF69B8,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg
-Colorado,0,0,0,1,#77dd77,44.4,36.4,19.3,#FF69B9,Cinnamon Toast Crunch,https://target.scene7.com/is/image/Target/12924454?wid=520&hei=520&fmt=pjpeg
-Connecticut,0,0,0,2,#77dd77,40.8,37.5,21.7,#FF69B10,Cinnamon Toast Crunch,https://target.scene7.com/is/image/Target/12924454?wid=520&hei=520&fmt=pjpeg
-Delaware,2,1,0,1,#ffb347,34.9,36.8,28.2,#FF69B11,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg
-District of Columbia,0,1,2,0,#77dd77,44.7,33.1,22.2,#FF69B12,Vanilla Coconut,https://i0.wp.com/trndmonitor.com/wp-content/uploads/2016/08/vanilla-coco_1024x1024.jpg?resize=625%2C625&ssl=1
-Florida,2,2,1,2,#ffb347,37.9,38,24.1,#FF69B13,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg
-Georgia,2,1,2,1,#ffb347,35,36.3,28.7,#FF69B14,Ancient Grains Cheerios,"https://media.newyorker.com/photos/59095e35ebe912338a3748d6/master/w_727,c_limit/Vara-Ancient-Grains.jpg"
-Hawaii,0,0,0,1,#77dd77,43.2,35.1,21.7,#FF69B15,Great Grains,https://target.scene7.com/is/image/Target/13192862?wid=520&hei=520&fmt=pjpeg
-Idaho,1,0,0,2,#fdfd96,36.9,38,25.1,#FF69B16,Quaker Oatmeal Squares,https://images-na.ssl-images-amazon.com/images/I/91wbQBxaW9L._SL1500_.jpg
-Illinois,2,1,0,2,#ffb347,37,37.4,25.6,#FF69B17,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg
-Indiana,2,1,1,1,#ffb347,36.8,35.8,27.4,#FF69B18,All Bran,https://i5.walmartimages.com/asr/536d924c-5782-4630-af4a-79a4f56abcc5_1.302fd61a0ef0a891061d68ad617cf202.jpeg
-Iowa,2,1,0,1,#ffb347,35.3,37,27.7,#FF69B19,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg
-Kansas,2,1,0,1,#ffb347,36.2,36.1,27.7,#FF69B20,Rice Krispies,https://images-na.ssl-images-amazon.com/images/I/91wQJ7zL0hL._SL1500_.jpg
-Kentucky,3,3,2,3,#ff6961,30.9,40.4,28.7,#FF69B21,Fiber One,https://images-na.ssl-images-amazon.com/images/I/91hwFA2KF1L._SY355_.jpg
-Louisiana,3,2,2,0,#ff6961,34.8,34.5,30.7,#FF69B22,Cocoa Crispies,https://images-na.ssl-images-amazon.com/images/I/915SBd8hgDL._SY355_.jpg
-Maine,2,1,0,2,#ffb347,37,37.7,25.2,#FF69B23,Oreo O's,https://www.mrbreakfast.com/cereal/c_270_oreo_os_cereal_box_front.jpg
-Maryland,2,1,0,1,#ffb347,37.3,36.4,26.3,#AA0055,Fiber One,https://images-na.ssl-images-amazon.com/images/I/91hwFA2KF1L._SY355_.jpg
-Massachusetts,0,1,0,2,#77dd77,41.1,37.2,21.7,#AA0056,Thin Mint Cereal,http://www.cerealously.net/wp-content/uploads/2017/01/general-mills-girl-scouts-thin-mints-cereal-box-review.jpg
-Michigan,3,1,1,1,#ff6961,35.7,36.1,28.2,#AA0057,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg
-Minnesota,1,0,0,1,#fdfd96,38,36,26,#AA0058,Cinnamon Toast Crunch,https://target.scene7.com/is/image/Target/12924454?wid=520&hei=520&fmt=pjpeg
-Mississippi,3,3,3,1,#ff6961,31.9,35.5,32.6,#AA0059,Thin Mint Cereal,http://www.cerealously.net/wp-content/uploads/2017/01/general-mills-girl-scouts-thin-mints-cereal-box-review.jpg
-Missouri,3,2,1,1,#ff6961,36.7,35.1,28.2,#AA0060,Nature Valley,https://www.naturevalley.com/wp-content/uploads/2016/11/NatureValley_BoxedCereal_BakedOatBites.png
-Montana,1,0,0,3,#fdfd96,38.2,39.2,22.6,#AA0061,Kashi,https://www.kashi.com/image/pim/desktop/402_PackShot.png
-Nebraska,2,1,0,2,#ffb347,35.3,38.2,26.5,#AA0062,Captain Crunch,https://images-na.ssl-images-amazon.com/images/I/91I2ZK22eOL._SL1500_.jpg
-Nevada,1,1,0,2,#fdfd96,37,38.4,24.6,#AA0063,Cascade Farms,https://s3.amazonaws.com/jo.www.bucket/cascadianfarm.com/product_sizes/images/106/medium/WebHoneyCrunch.jpg?1450832793
-New Hampshire,1,0,0,1,#fdfd96,38.2,36.7,25.1,#AA0064,Rice Krispies,https://images-na.ssl-images-amazon.com/images/I/91wQJ7zL0hL._SL1500_.jpg
-New Jersey,1,2,0,2,#fdfd96,37.7,38.2,24.1,#5500AA,Ancient Grains Cheerios,"https://media.newyorker.com/photos/59095e35ebe912338a3748d6/master/w_727,c_limit/Vara-Ancient-Grains.jpg"
-New Mexico,1,1,2,1,#fdfd96,39.2,35.7,25.1,#5500AA,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg
-New York,1,1,1,1,#fdfd96,38,36.4,25.5,#5500AA,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg
-North Carolina,3,1,1,1,#ff6961,35.4,35.9,28.7,#5500AA,Fiber One,https://images-na.ssl-images-amazon.com/images/I/91hwFA2KF1L._SY355_.jpg
-North Dakota,2,1,0,2,#ffb347,35.1,37.9,27,#5500AA,Oreo O's,https://www.mrbreakfast.com/cereal/c_270_oreo_os_cereal_box_front.jpg
-Ohio,3,1,1,1,#ff6961,36.5,35.4,28.1,#5500AA,Ancient Grains Cheerios,"https://media.newyorker.com/photos/59095e35ebe912338a3748d6/master/w_727,c_limit/Vara-Ancient-Grains.jpg"
-Oklahoma,3,2,1,1,#ff6961,34.9,36.3,28.8,#5500AA,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg
-Oregon,1,0,0,1,#fdfd96,37.9,35.7,26.3,#5500AA,Honey Nut Cheerios,https://images-na.ssl-images-amazon.com/images/I/91aeNN6lt1L._SY355_.jpg
-Pennsylvania,2,1,0,0,#ffb347,37.4,34.9,27.8,#5500AA,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg
-Rhode Island,1,1,0,3,#fdfd96,39.2,39.1,21.7,#5500AA,Rice Krispies,https://images-na.ssl-images-amazon.com/images/I/91wQJ7zL0hL._SL1500_.jpg
-South Carolina,3,1,1,1,#ff6961,34.7,36.3,29,#5500AA,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg
-South Dakota,2,1,0,2,#ffb347,34.5,38.3,27.2,#5500AA,Cocoa Crispies,https://images-na.ssl-images-amazon.com/images/I/915SBd8hgDL._SY355_.jpg
-Tennessee,3,3,1,1,#ff6961,32.6,36.7,30.7,#5500AA,Cheerios,http://www.lifemadedelicious.ca/en/-/media/Images/LMD/Brands/Sub-Product/cheerios/cheerios_en.png
-Texas,3,2,2,2,#ff6961,34.3,37.2,28.6,#5500AA,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg
-Utah,1,0,0,1,#fdfd96,42.1,35.6,22.4,#5500AA,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg
-Vermont,1,0,0,1,#fdfd96,41.2,36.9,21.9,#5500AA,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg
-Virginia,1,1,0,1,#fdfd96,38.2,36.6,25.3,#5500AA,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg
-Washington,2,0,0,1,#ffb347,37.9,36.2,25.9,#5500AA,Maypo,https://s3.amazonaws.com/foodservicedirect.com/productimages/OT376791S.jpg
-West Virginia,3,2,1,2,#ff6961,32,37.7,30.3,#5500AA,Count Chocula,http://images.fanpop.com/images/image_uploads/Count-Chocula-cereal-534373_371_525.jpg
-Wisconsin,2,0,0,1,#ffb347,37.7,37,25.3,#5500AA,Fiber One,https://images-na.ssl-images-amazon.com/images/I/91hwFA2KF1L._SY355_.jpg
-Wyoming,1,1,0,2,#fdfd96,37.8,37.7,24.5,#5500AA,Ancient Grains Cheerios,"https://media.newyorker.com/photos/59095e35ebe912338a3748d6/master/w_727,c_limit/Vara-Ancient-Grains.jpg"
+state,visited,exercise,povRate,overWeight,colour,good,Overweight,Obese,circColour,favCereal,cerealLink,Calories,Carbo,Cups,Fat,Fiber,Potassium,Protein,Rating,Shelf,Sodium,Sugars,Vitamins,Weight
+Alabama,3,2,1,1,#ff6961,33.4%,35.7%,30.9%,#FF69B4,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg,110,16,1,0,1,55,6,53.131324,1,230,3,25,1
+Alaska,1,0,0,1,#fdfd96,34.8%,36.9%,28.2%,#FF69B5,Shredded Wheat,https://i5.walmartimages.ca/images/Large/03_/rev/62815402003_rev.jpg?odnBound=460,80,16,1,0,3,95,2,68.235885,1,0,0,0,0.83
+Arizona,1,1,2,1,#fdfd96,37.3%,36.8%,25.8%,#FF69B6,Rice Krispies,https://images-na.ssl-images-amazon.com/images/I/91wQJ7zL0hL._SL1500_.jpg,110,22,1,0,0,35,2,40.560159,1,290,3,25,1
+Arkansas,3,2,1,1,#ff6961,34.4%,36.3%,29.3%,#FF69B7,Raisin Bran,http://images.kglobalservices.com/www.kelloggs.com/en_us/product/product_4508651/kicproductimage-127056_rb_2016.jpeg,120,14,0.75,1,5,240,3,39.259197,2,210,12,25,1.33
+California,1,1,1,1,#fdfd96,41.0%,35.7%,23.3%,#FF69B8,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg,110,16,1,0,1,55,6,53.131324,1,230,3,25,1
+Colorado,0,0,0,1,#77dd77,44.4%,36.4%,19.3%,#FF69B9,Cinnamon Toast Crunch,https://target.scene7.com/is/image/Target/12924454?wid=520&hei=520&fmt=pjpeg,120,13,0.75,3,0,45,1,19.823573,2,210,9,25,1
+Connecticut,0,0,0,2,#77dd77,40.8%,37.5%,21.7%,#FF69B10,Cinnamon Toast Crunch,https://target.scene7.com/is/image/Target/12924454?wid=520&hei=520&fmt=pjpeg,120,13,0.75,3,0,45,1,19.823573,2,210,9,25,1
+Delaware,2,1,0,1,#ffb347,34.9%,36.8%,28.2%,#FF69B11,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg,110,16,1,0,1,55,6,53.131324,1,230,3,25,1
+District of Columbia,0,1,2,0,#77dd77,44.7%,33.1%,22.2%,#FF69B12,Vanilla Coconut,https://i0.wp.com/trndmonitor.com/wp-content/uploads/2016/08/vanilla-coco_1024x1024.jpg?resize=625%2C625&ssl=1,120,2,0.7,8,6,0,8,,,60,1,7,60
+Florida,2,2,1,2,#ffb347,37.9%,38.0%,24.1%,#FF69B13,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg,110,16,1,0,1,55,6,53.131324,1,230,3,25,1
+Georgia,2,1,2,1,#ffb347,35.0%,36.3%,28.7%,#FF69B14,Ancient Grains Cheerios,"https://media.newyorker.com/photos/59095e35ebe912338a3748d6/master/w_727,c_limit/Vara-Ancient-Grains.jpg",110,22,0.3,2,2,90,3,38.5,2,105,5,25,28
+Hawaii,0,0,0,1,#77dd77,43.2%,35.1%,21.7%,#FF69B15,Great Grains,https://target.scene7.com/is/image/Target/13192862?wid=520&hei=520&fmt=pjpeg,190,37,0.7,4,4,,4,35,3,115,10,25,50
+Idaho,1,0,0,2,#fdfd96,36.9%,38.0%,25.1%,#FF69B16,Quaker Oatmeal Squares,https://images-na.ssl-images-amazon.com/images/I/91wbQBxaW9L._SL1500_.jpg,100,14,0.5,1,2,110,4,49.511874,3,135,6,25,1
+Illinois,2,1,0,2,#ffb347,37.0%,37.4%,25.6%,#FF69B17,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg,110,16,1,0,1,55,6,53.131324,1,230,3,25,1
+Indiana,2,1,1,1,#ffb347,36.8%,35.8%,27.4%,#FF69B18,All Bran,https://i5.walmartimages.com/asr/536d924c-5782-4630-af4a-79a4f56abcc5_1.302fd61a0ef0a891061d68ad617cf202.jpeg,70,7,0.33,1,9,320,4,59.425505,3,260,5,25,1
+Iowa,2,1,0,1,#ffb347,35.3%,37.0%,27.7%,#FF69B19,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg,110,16,1,0,1,55,6,53.131324,1,230,3,25,1
+Kansas,2,1,0,1,#ffb347,36.2%,36.1%,27.7%,#FF69B20,Rice Krispies,https://images-na.ssl-images-amazon.com/images/I/91wQJ7zL0hL._SL1500_.jpg,110,22,1,0,0,35,2,40.560159,1,290,3,25,1
+Kentucky,3,3,2,3,#ff6961,30.9%,40.4%,28.7%,#FF69B21,Fiber One,https://images-na.ssl-images-amazon.com/images/I/91hwFA2KF1L._SY355_.jpg,60,25,1.5,1,14.2,180,2,41.50354,2,105,0,13,30
+Louisiana,3,2,2,0,#ff6961,34.8%,34.5%,30.7%,#FF69B22,Cocoa Crispies,https://images-na.ssl-images-amazon.com/images/I/915SBd8hgDL._SY355_.jpg,121,27,0.8,1,0.4,61,1,,2,131,12,25,31
+Maine,2,1,0,2,#ffb347,37.0%,37.7%,25.2%,#FF69B23,Oreo O's,https://www.mrbreakfast.com/cereal/c_270_oreo_os_cereal_box_front.jpg,,,,,,,,,,,,,
+Maryland,2,1,0,1,#ffb347,37.3%,36.4%,26.3%,#AA0055,Fiber One,https://images-na.ssl-images-amazon.com/images/I/91hwFA2KF1L._SY355_.jpg,60,25,1.5,1,14.2,180,2,41.50354,2,105,0,13,30
+Massachusetts,0,1,0,2,#77dd77,41.1%,37.2%,21.7%,#AA0056,Thin Mint Cereal,http://www.cerealously.net/wp-content/uploads/2017/01/general-mills-girl-scouts-thin-mints-cereal-box-review.jpg,120,22,0.8,3,1,70,1,42,3,90,9,15,28
+Michigan,3,1,1,1,#ff6961,35.7%,36.1%,28.2%,#AA0057,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg,110,16,1,0,1,55,6,53.131324,1,230,3,25,1
+Minnesota,1,0,0,1,#fdfd96,38.0%,36.0%,26.0%,#AA0058,Cinnamon Toast Crunch,https://target.scene7.com/is/image/Target/12924454?wid=520&hei=520&fmt=pjpeg,120,13,0.75,3,0,45,1,19.823573,2,210,9,25,1
+Mississippi,3,3,3,1,#ff6961,31.9%,35.5%,32.6%,#AA0059,Thin Mint Cereal,http://www.cerealously.net/wp-content/uploads/2017/01/general-mills-girl-scouts-thin-mints-cereal-box-review.jpg,120,22,0.8,3,1,70,1,42,3,90,9,15,28
+Missouri,3,2,1,1,#ff6961,36.7%,35.1%,28.2%,#AA0060,Nature Valley,https://www.naturevalley.com/wp-content/uploads/2016/11/NatureValley_BoxedCereal_BakedOatBites.png,,,,,,,,,,,,,
+Montana,1,0,0,3,#fdfd96,38.2%,39.2%,22.6%,#AA0061,Kashi,https://www.kashi.com/image/pim/desktop/402_PackShot.png,,,,,,,,,,,,,
+Nebraska,2,1,0,2,#ffb347,35.3%,38.2%,26.5%,#AA0062,Captain Crunch,https://images-na.ssl-images-amazon.com/images/I/91I2ZK22eOL._SL1500_.jpg,120,12,0.75,2,0,35,1,18.042851,2,220,12,25,1
+Nevada,1,1,0,2,#fdfd96,37.0%,38.4%,24.6%,#AA0063,Cascade Farms,https://s3.amazonaws.com/jo.www.bucket/cascadianfarm.com/product_sizes/images/106/medium/WebHoneyCrunch.jpg?1450832793,,,,,,,,,,,,,
+New Hampshire,1,0,0,1,#fdfd96,38.2%,36.7%,25.1%,#AA0064,Rice Krispies,https://images-na.ssl-images-amazon.com/images/I/91wQJ7zL0hL._SL1500_.jpg,110,22,1,0,0,35,2,40.560159,1,290,3,25,1
+New Jersey,1,2,0,2,#fdfd96,37.7%,38.2%,24.1%,#5500AA,Ancient Grains Cheerios,"https://media.newyorker.com/photos/59095e35ebe912338a3748d6/master/w_727,c_limit/Vara-Ancient-Grains.jpg",110,22,0.3,2,2,90,3,38.5,2,105,5,25,28
+New Mexico,1,1,2,1,#fdfd96,39.2%,35.7%,25.1%,#5500AA,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg,110,16,1,0,1,55,6,53.131324,1,230,3,25,1
+New York,1,1,1,1,#fdfd96,38.0%,36.4%,25.5%,#5500AA,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg,110,16,1,0,1,55,6,53.131324,1,230,3,25,1
+North Carolina,3,1,1,1,#ff6961,35.4%,35.9%,28.7%,#5500AA,Fiber One,https://images-na.ssl-images-amazon.com/images/I/91hwFA2KF1L._SY355_.jpg,60,25,1.5,1,14.2,180,2,41.50354,2,105,0,13,30
+North Dakota,2,1,0,2,#ffb347,35.1%,37.9%,27.0%,#5500AA,Oreo O's,https://www.mrbreakfast.com/cereal/c_270_oreo_os_cereal_box_front.jpg,,,,,,,,,,,,,
+Ohio,3,1,1,1,#ff6961,36.5%,35.4%,28.1%,#5500AA,Ancient Grains Cheerios,"https://media.newyorker.com/photos/59095e35ebe912338a3748d6/master/w_727,c_limit/Vara-Ancient-Grains.jpg",110,22,0.3,2,2,90,3,38.5,2,105,5,25,28
+Oklahoma,3,2,1,1,#ff6961,34.9%,36.3%,28.8%,#5500AA,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg,110,16,1,0,1,55,6,53.131324,1,230,3,25,1
+Oregon,1,0,0,1,#fdfd96,37.9%,35.7%,26.3%,#5500AA,Honey Nut Cheerios,https://images-na.ssl-images-amazon.com/images/I/91aeNN6lt1L._SY355_.jpg,110,11.5,0.75,1,1.5,90,3,31.072217,1,250,10,25,1
+Pennsylvania,2,1,0,0,#ffb347,37.4%,34.9%,27.8%,#5500AA,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg,110,16,1,0,1,55,6,53.131324,1,230,3,25,1
+Rhode Island,1,1,0,3,#fdfd96,39.2%,39.1%,21.7%,#5500AA,Rice Krispies,https://images-na.ssl-images-amazon.com/images/I/91wQJ7zL0hL._SL1500_.jpg,110,22,1,0,0,35,2,40.560159,1,290,3,25,1
+South Carolina,3,1,1,1,#ff6961,34.7%,36.3%,29.0%,#5500AA,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg,110,16,1,0,1,55,6,53.131324,1,230,3,25,1
+South Dakota,2,1,0,2,#ffb347,34.5%,38.3%,27.2%,#5500AA,Cocoa Crispies,https://images-na.ssl-images-amazon.com/images/I/915SBd8hgDL._SY355_.jpg,121,27,0.8,1,0.4,61,1,,2,131,12,25,31
+Tennessee,3,3,1,1,#ff6961,32.6%,36.7%,30.7%,#5500AA,Cheerios,http://www.lifemadedelicious.ca/en/-/media/Images/LMD/Brands/Sub-Product/cheerios/cheerios_en.png,110,17,1.25,2,2,105,6,50.764999,1,290,1,25,1
+Texas,3,2,2,2,#ff6961,34.3%,37.2%,28.6%,#5500AA,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg,110,16,1,0,1,55,6,53.131324,1,230,3,25,1
+Utah,1,0,0,1,#fdfd96,42.1%,35.6%,22.4%,#5500AA,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg,110,16,1,0,1,55,6,53.131324,1,230,3,25,1
+Vermont,1,0,0,1,#fdfd96,41.2%,36.9%,21.9%,#5500AA,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg,110,16,1,0,1,55,6,53.131324,1,230,3,25,1
+Virginia,1,1,0,1,#fdfd96,38.2%,36.6%,25.3%,#5500AA,Special K,https://target.scene7.com/is/image/Target/12935201?wid=520&hei=520&fmt=pjpeg,110,16,1,0,1,55,6,53.131324,1,230,3,25,1
+Washington,2,0,0,1,#ffb347,37.9%,36.2%,25.9%,#5500AA,Maypo,https://s3.amazonaws.com/foodservicedirect.com/productimages/OT376791S.jpg,100,16,1,1,0,95,4,54.850917,2,0,3,25,1
+West Virginia,3,2,1,2,#ff6961,32.0%,37.7%,30.3%,#5500AA,Count Chocula,http://images.fanpop.com/images/image_uploads/Count-Chocula-cereal-534373_371_525.jpg,100,23,0.75,2,1,55,1,22.396513,2,130,9,25,27
+Wisconsin,2,0,0,1,#ffb347,37.7%,37.0%,25.3%,#5500AA,Fiber One,https://images-na.ssl-images-amazon.com/images/I/91hwFA2KF1L._SY355_.jpg,60,25,1.5,1,14.2,180,2,41.50354,2,105,0,13,30
+Wyoming,1,1,0,2,#fdfd96,37.8%,37.7%,24.5%,#5500AA,Ancient Grains Cheerios,"https://media.newyorker.com/photos/59095e35ebe912338a3748d6/master/w_727,c_limit/Vara-Ancient-Grains.jpg",110,22,0.3,2,2,90,3,38.5,2,105,5,25,28
