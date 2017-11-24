@@ -107,16 +107,24 @@ var y = d3.scaleLinear()
 var line = d3.line()
     .x(function(d) { return x(d.date); })
     .y(function(d) { return y(d.state); });
+	
+var line2 = d3.line()
+    .x(function(d) { return x(d.date); })
+    .y(function(d) { return y(d.state2); });	
 
+	
+var stateNameMale = stateName+ "_male";
+var stateNameFemale = stateName+ "_female";
 d3.csv("data.csv", function(d) {
   d.date = d.date;
-  d.state = d[stateName];
+  d.state = d[stateNameMale];
+  d.state2 = d[stateNameFemale];
   return d;
 }, function(error, data) {
   if (error) throw error;
 
   x.domain(d3.extent(data, function(d) { return d.date; }));
-  y.domain(d3.extent(data, function(d) { return d.state; }));
+  y.domain([0, 45]);
 
   g.append("g")
 		.attr("class","linechart")
@@ -127,7 +135,7 @@ d3.csv("data.csv", function(d) {
 
   g.append("g")
     .attr("class","linechart")
-    .call(d3.axisLeft(y))
+    .call(d3.axisLeft(y).ticks(10))
     .append("text")
     .attr("fill", "#000")
     .attr("transform", "rotate(-90)")
@@ -144,6 +152,16 @@ d3.csv("data.csv", function(d) {
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
       .attr("d", line);
+	  
+	    g.append("path")
+	.attr("class","linechart")
+      .datum(data)
+      .attr("fill", "none")
+      .attr("stroke", "#FF69B4")
+      .attr("stroke-linejoin", "round")
+      .attr("stroke-linecap", "round")
+      .attr("stroke-width", 1.5)
+      .attr("d", line2);
 });
 
 }
