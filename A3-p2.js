@@ -1,5 +1,6 @@
 function tooltipHtml(n, d){	/* function to create html content string in tooltip div. */
 		//console.log(d.cerealLink);
+		drawLineChart();
 		drawPic(d.cerealLink, d.stateName, d.calories, d.Carbo, d.Cups, d.Fat, d.Fibre, d.Potassium, d.Protein, d.Rating, d.Shelf, d.Sodium, d.Sugars,
 		d.Vitamins, d.Weight, d.cerealName);
 		return "<h4>"+n+"</h4><table>"+
@@ -66,7 +67,6 @@ for (var i = 0; i < data.length; i++) {
 			Protein: (Protein),Rating: (Rating),Shelf: (Shelf),Sodium: (Sodium), Sugars: (Sugars),Vitamins: (Vitamins),Weight: (Weight),
 			cerealName: (cerealName)}; 
 			i++;
-			drawPic("#00000F");
 		});
 	
 	/* draw states on id #statesvg */	
@@ -87,19 +87,68 @@ for (var i = 0; i < data.length; i++) {
 		break;
 		}
 	}
-
 }
-		
-	
-	
-
-
-
 	});
 
 });
+function drawLineChart(){
+var svg = d3.select("svg"),
+    width = 500,
+    height = 200,
+    g = svg.append("g").attr("transform", "translate(" + 900+ "," + 500 + ")");
+
+var parseTime = d3.timeParse("%d-%b-%y");
+
+var x = d3.scaleTime()
+    .rangeRound([0, width]);
+
+var y = d3.scaleLinear()
+    .rangeRound([height, 0]);
+
+var line = d3.line()
+    .x(function(d) { return x(d.date); })
+    .y(function(d) { return y(d.close); });
+
+d3.tsv("data.tsv", function(d) {
+  d.date = parseTime(d.date);
+  d.close = +d.close;
+  return d;
+}, function(error, data) {
+  if (error) throw error;
+
+  x.domain(d3.extent(data, function(d) { return d.date; }));
+  y.domain(d3.extent(data, function(d) { return d.close; }));
+
+  g.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x))
+    .select(".domain")
+      .remove();
+
+  g.append("g")
+      .call(d3.axisLeft(y))
+    .append("text")
+      .attr("fill", "#000")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("text-anchor", "end")
+      .text("Price ($)");
+
+  g.append("path")
+      .datum(data)
+      .attr("fill", "none")
+      .attr("stroke", "steelblue")
+      .attr("stroke-linejoin", "round")
+      .attr("stroke-linecap", "round")
+      .attr("stroke-width", 1.5)
+      .attr("d", line);
+});
+
+}
+
 function drawPic(link, stateName, calories, Carbo, Cups, Fat, Fibre, Potassium, Protein, Rating, Shelf, Sodium, Sugars,
 		Vitamins, Weight, cerealName){
+		
 d3.selectAll(".first").remove();
 d3.selectAll(".stateName").remove();
 d3.selectAll(".variables").remove();
