@@ -97,9 +97,8 @@ var svg = d3.select("svg"),
     height = 200,
     g = svg.append("g").attr("transform", "translate(" + 900+ "," + 500 + ")");
 
-var parseTime = d3.timeParse("%d-%b-%y");
 
-var x = d3.scaleTime()
+var x = d3.scaleLinear()
     .rangeRound([0, width]);
 
 var y = d3.scaleLinear()
@@ -110,7 +109,7 @@ var line = d3.line()
     .y(function(d) { return y(d.close); });
 
 d3.tsv("data.tsv", function(d) {
-  d.date = parseTime(d.date);
+  d.date = d.date;
   d.close = +d.close;
   return d;
 }, function(error, data) {
@@ -121,9 +120,9 @@ d3.tsv("data.tsv", function(d) {
 
   g.append("g")
       .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x))
+      .call(d3.axisBottom(x).ticks(5).tickFormat(d3.format("d")))
     .select(".domain")
-      .remove();
+      ;
 
   g.append("g")
       .call(d3.axisLeft(y))
@@ -132,7 +131,7 @@ d3.tsv("data.tsv", function(d) {
       .attr("transform", "rotate(-90)")
       .attr("y", 6)
       .attr("text-anchor", "end")
-      .text("Price ($)");
+
 
   g.append("path")
       .datum(data)
