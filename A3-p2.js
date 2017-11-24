@@ -1,6 +1,6 @@
 function tooltipHtml(n, d){	/* function to create html content string in tooltip div. */
 		//console.log(d.cerealLink);
-		drawLineChart();
+		drawLineChart(d.stateName);
 		drawPic(d.cerealLink, d.stateName, d.calories, d.Carbo, d.Cups, d.Fat, d.Fibre, d.Potassium, d.Protein, d.Rating, d.Shelf, d.Sodium, d.Sugars,
 		d.Vitamins, d.Weight, d.cerealName);
 		return "<h4>"+n+"</h4><table>"+
@@ -91,13 +91,13 @@ for (var i = 0; i < data.length; i++) {
 	});
 
 });
-function drawLineChart(){
+function drawLineChart(stateName){
+	d3.selectAll("g").remove();
 var svg = d3.select("svg"),
     width = 500,
     height = 200,
     g = svg.append("g").attr("transform", "translate(" + 900+ "," + 500 + ")");
-
-
+	
 var x = d3.scaleLinear()
     .rangeRound([0, width]);
 
@@ -106,34 +106,37 @@ var y = d3.scaleLinear()
 
 var line = d3.line()
     .x(function(d) { return x(d.date); })
-    .y(function(d) { return y(d.close); });
+    .y(function(d) { return y(d.state); });
 
 d3.csv("data.csv", function(d) {
   d.date = d.date;
-  d.close = +d.close;
+  d.state = d[stateName];
   return d;
 }, function(error, data) {
   if (error) throw error;
 
   x.domain(d3.extent(data, function(d) { return d.date; }));
-  y.domain(d3.extent(data, function(d) { return d.close; }));
+  y.domain(d3.extent(data, function(d) { return d.state; }));
 
   g.append("g")
+		.attr("class","linechart")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x).ticks(5).tickFormat(d3.format("d")))
     .select(".domain")
       ;
 
   g.append("g")
-      .call(d3.axisLeft(y))
+    .attr("class","linechart")
+    .call(d3.axisLeft(y))
     .append("text")
-      .attr("fill", "#000")
-      .attr("transform", "rotate(-90)")
-      .attr("y", 6)
-      .attr("text-anchor", "end")
+    .attr("fill", "#000")
+    .attr("transform", "rotate(-90)")
+    .attr("y", 6)
+    .attr("text-anchor", "end")
 
 
   g.append("path")
+	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
       .attr("stroke", "steelblue")
