@@ -9,18 +9,23 @@ function myFunction(color_type) {
 	}
 	if (dataType == "Age"){
 		dataSource = "age_data.csv";
+		graphLabel = "Different Ages Obesity";
 	}
 	if (dataType == "Education"){
 		dataSource = "education_data.csv";
+		graphLabel = "Different Education Obesity";
 	}
 	if (dataType == "Overall"){
 		dataSource = "overall_data.csv";
+		graphLabel = "Overall Obesity";
 	}
 	if (dataType == "Income"){
 		dataSource = "income_data.csv";
+		graphLabel = "Different Incomes Obesity";
 	}
 	if (dataType == "Race"){
 		dataSource = "race_data.csv";
+		graphLabel = "Different Races Obesity";
 	}
 	
 }
@@ -44,6 +49,8 @@ var svg = d3.select("body")
 			.append("svg")
 			.attr("width", width)
 			.attr("height", height);	
+			
+						
 
 				
 // Load in my states data!
@@ -121,11 +128,12 @@ for (var i = 0; i < data.length; i++) {
 
 });
 function drawGenderLineChart(stateName){
+	d3.select("#meantext").remove();
 	d3.selectAll("g").remove();
 var svg = d3.select("svg"),
     width = 300,
     height = 200,
-    g = svg.append("g").attr("transform", "translate(" + 1300+ "," + 20 + ")");
+    g = svg.append("g").attr("transform", "translate(" + 1250+ "," + 230 + ")");
 	
 var x = d3.scaleLinear()
     .rangeRound([0, width]);
@@ -291,10 +299,11 @@ d3.csv(dataSource, function(d) {
   y.domain([0, 45]);
  
 	d3.select('body').select('svg').append('text')
+			 .attr("id", "meantext")
              .attr('text-anchor', 'middle')
 			 .style('fontWeight', 'bold')
-              .attr("x", 1350)
-             .attr("y", 20)
+             .attr("x", 1350)
+             .attr("y", 200)
              .text(graphLabel)
 
   g.append("g")
@@ -577,6 +586,9 @@ g.append("path")
 
 function drawPic(link, stateName, calories, Carbo, Cups, Fat, Fibre, Potassium, Protein, Rating, Shelf, Sodium, Sugars,
 		Vitamins, Weight, cerealName){
+			
+			
+		
 		
 d3.selectAll(".first").remove();
 d3.selectAll(".stateName").remove();
