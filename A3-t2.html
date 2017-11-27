@@ -90,9 +90,18 @@ path {
 	<button type="button" onclick="displayExercise()">Percentage of population that exercises</button>
 	<button type="button" onclick="obesityPercent()">Percentage of people with obese weight</button>
 	<button type="button" onclick="povertyRate()">Poverty Rate</button>
+	<select onchange="myFunction(this.value)">
+	<option selected="selected" value="Please Choose a Category">Please Choose a Category</option>
+  <option value="Gender">Gender</option>
+  <option value="Age">Age</option>
+  <option value="Education">Education</option>
+  <option value="Income">Income</option>
+  <option value="Race">Race</option>
+  <option value="Overall">Overall</option>
+</select>
 	</div>
 <div id="tooltip"></div><!-- div to hold tooltip. -->
-<svg width="1500" height="1000" id="statesvg"></svg> <!-- svg to hold the map. -->
+<svg width="1700" height="1000" id="statesvg"></svg> <!-- svg to hold the map. -->
 
 <script src="uStates.js"></script> <!-- creates uStates. -->
 <script src="http://d3js.org/d3.v3.min.js"></script>
