@@ -6,35 +6,121 @@ function myFunction(color_type) {
 	if (dataType == "Gender"){
 		dataSource = "male_female_data.csv";
 		graphLabel = "Male vs. Female Obesity";
+		document.getElementById("lineHeader").innerHTML = graphLabel;
+		document.getElementById("red2").style.display = "inline-block";
+		document.getElementById("red2").innerHTML = "&nbsp&nbsp&nbspFemale";
+		document.getElementById("blue").style.display = "inline-block";
+		document.getElementById("blue").innerHTML = "&nbsp&nbsp&nbspMale";
+		document.getElementById("black").style.display = "none";
+		document.getElementById("green2").style.display = "none";
+		document.getElementById("orange2").style.display = "none";
+		document.getElementById("purple").style.display = "none";
+		document.getElementById("gray").style.display = "none";
+		document.getElementById("mustard").style.display = "none";
 	}
 	if (dataType == "Age"){
 		dataSource = "age_data.csv";
 		graphLabel = "Different Ages Obesity";
+		document.getElementById("lineHeader").innerHTML = graphLabel;
+		document.getElementById("red2").style.display = "inline-block";
+		document.getElementById("red2").innerHTML = "&nbsp&nbsp&nbsp18-24";
+		document.getElementById("blue").style.display = "inline-block";
+		document.getElementById("blue").innerHTML = "&nbsp&nbsp&nbsp25-34";
+		document.getElementById("black").style.display = "inline-block";
+		document.getElementById("black").innerHTML = "&nbsp&nbsp&nbsp35-44";
+		document.getElementById("green2").style.display = "inline-block";
+		document.getElementById("green2").innerHTML = "&nbsp&nbsp&nbsp45-54";
+		document.getElementById("orange2").style.display = "inline-block";
+		document.getElementById("orange2").innerHTML = "&nbsp&nbsp&nbsp55-64";
+		document.getElementById("purple").style.display = "inline-block";
+		document.getElementById("purple").innerHTML = "&nbsp&nbsp&nbsp65+";
+		document.getElementById("gray").style.display = "none";
+		document.getElementById("mustard").style.display = "none";
 	}
 	if (dataType == "Education"){
 		dataSource = "education_data.csv";
 		graphLabel = "Different Education Obesity";
+		document.getElementById("lineHeader").innerHTML = graphLabel;
+		document.getElementById("red2").style.display = "inline-block";
+		document.getElementById("red2").innerHTML = "&nbsp&nbsp&nbspCollege&nbspGrad";
+		document.getElementById("blue").style.display = "inline-block";
+		document.getElementById("blue").innerHTML = "&nbsp&nbsp&nbspSome&nbspCollege";
+		document.getElementById("black").style.display = "inline-block";
+		document.getElementById("black").innerHTML = "&nbsp&nbsp&nbspHigh&nbspSchool&nbspGrad";
+		document.getElementById("green2").style.display = "inline-block";
+		document.getElementById("green2").innerHTML = "&nbsp&nbsp&nbspLess&nbspthan&nbspHigh&nbspSchool";
+		document.getElementById("orange2").style.display = "none";
+		document.getElementById("purple").style.display = "none";
+		document.getElementById("gray").style.display = "none";
+		document.getElementById("mustard").style.display = "none";
 	}
 	if (dataType == "Overall"){
 		dataSource = "overall_data.csv";
 		graphLabel = "Overall Obesity";
+		document.getElementById("lineHeader").innerHTML = graphLabel;
+		document.getElementById("black").style.display = "inline-block";
+		document.getElementById("black").innerHTML = "&nbsp&nbsp&nbspOverall";
+		document.getElementById("blue").style.display = "none";
+		document.getElementById("green2").style.display = "none";
+		document.getElementById("orange2").style.display = "none";
+		document.getElementById("purple").style.display = "none";
+		document.getElementById("gray").style.display = "none";
+		document.getElementById("mustard").style.display = "none";
+		document.getElementById("red2").style.display = "none";
 	}
 	if (dataType == "Income"){
 		dataSource = "income_data.csv";
 		graphLabel = "Different Incomes Obesity";
+		document.getElementById("lineHeader").innerHTML = graphLabel;
+		document.getElementById("red2").style.display = "inline-block";
+		document.getElementById("red2").innerHTML = "&nbsp&nbsp&nbspLess&nbspthan&nbsp15K";
+		document.getElementById("blue").style.display = "inline-block";
+		document.getElementById("blue").innerHTML = "&nbsp&nbsp&nbsp$15,000-$24,999";
+		document.getElementById("black").style.display = "inline-block";
+		document.getElementById("black").innerHTML = "&nbsp&nbsp&nbsp$25,000-$34,999";
+		document.getElementById("green2").style.display = "inline-block";
+		document.getElementById("green2").innerHTML = "&nbsp&nbsp&nbsp$35,000-$49,999";
+		document.getElementById("orange2").style.display = "inline-block";
+		document.getElementById("orange2").innerHTML = "&nbsp&nbsp&nbsp$50,000-$74,999";
+		document.getElementById("purple").style.display = "inline-block";
+		document.getElementById("purple").innerHTML = "&nbsp&nbsp&nbsp$75,000&nbspor&nbspgreater";
+		document.getElementById("gray").style.display = "inline-block";
+		document.getElementById("gray").innerHTML = "&nbsp&nbsp&nbspData&nbspnot&nbspreported";
+		document.getElementById("mustard").style.display = "none";
 	}
 	if (dataType == "Race"){
 		dataSource = "race_data.csv";
 		graphLabel = "Different Races Obesity";
+		document.getElementById("lineHeader").innerHTML = graphLabel;
+		document.getElementById("red2").style.display = "inline-block";
+		document.getElementById("red2").innerHTML = "&nbsp&nbsp&nbsp2&nbspor&nbspmore&nbspraces";
+		document.getElementById("blue").style.display = "inline-block";
+		document.getElementById("blue").innerHTML = "&nbsp&nbsp&nbspAmerican&nbspIndian/Alaska&nbspNative";
+		document.getElementById("black").style.display = "inline-block";
+		document.getElementById("black").innerHTML = "&nbsp&nbsp&nbspAsian";
+		document.getElementById("green2").style.display = "inline-block";
+		document.getElementById("green2").innerHTML = "&nbsp&nbsp&nbspHawaiian/Pacific&nbspIslander";
+		document.getElementById("orange2").style.display = "inline-block";
+		document.getElementById("orange2").innerHTML = "&nbsp&nbsp&nbspHispanic";
+		document.getElementById("purple").style.display = "inline-block";
+		document.getElementById("purple").innerHTML = "&nbsp&nbsp&nbspNon&nbspHispanic&nbspBlack";
+		document.getElementById("gray").style.display = "inline-block";
+		document.getElementById("gray").innerHTML = "&nbsp&nbsp&nbspNon&nbspHispanic&nbspWhite";
+		document.getElementById("mustard").style.display = "inline-block";
+		document.getElementById("mustard").innerHTML = "&nbsp&nbsp&nbspOther";
 	}
 	
 }
-function setLabels(type){
+		document.getElementById("black").style.display = "none";
+		document.getElementById("blue").style.display = "none";
+		document.getElementById("green2").style.display = "none";
+		document.getElementById("orange2").style.display = "none";
+		document.getElementById("purple").style.display = "none";
+		document.getElementById("gray").style.display = "none";
+		document.getElementById("mustard").style.display = "none";
+		document.getElementById("red2").style.display = "none";
+obese();
 	
-}
-
-
-obese();	
 function drawGenderLineChart(stateName){
 	d3.select("#meantext").remove();
 	d3.selectAll("g").remove();
@@ -205,14 +291,7 @@ d3.csv(dataSource, function(d) {
 
   x.domain([2011, 2015]);
   y.domain([0, 45]);
- 
-	d3.select('body').select('svg').append('text')
-			 .attr("id", "meantext")
-             .attr('text-anchor', 'middle')
-			 .style('fontWeight', 'bold')
-             .attr("x", 1350)
-             .attr("y", 50)
-             .text(graphLabel) //copy this later to label line graph
+
 
   g.append("g")
 		.attr("class","linechart")
@@ -235,7 +314,7 @@ d3.csv(dataSource, function(d) {
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "steelblue")
+      .attr("stroke", "#0000FF")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -246,7 +325,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "#FF69B4")
+      .attr("stroke", "#ff0000")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -255,7 +334,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "#FF69B4")
+      .attr("stroke", "#ff0000")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -264,7 +343,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "red")
+      .attr("stroke", "#0000FF")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -273,7 +352,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "blue")
+      .attr("stroke", "black")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -282,7 +361,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "green")
+      .attr("stroke", "#00FF00")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -291,7 +370,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "purple")
+      .attr("stroke", "#FFA500")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -300,7 +379,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "orange")
+      .attr("stroke", "#551A8B")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -309,7 +388,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "green")
+      .attr("stroke", "red")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -327,7 +406,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "orange")
+      .attr("stroke", "black")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -336,7 +415,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "red")
+      .attr("stroke", "#00FF00")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -354,7 +433,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "black")
+      .attr("stroke", "red")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -372,7 +451,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "red")
+      .attr("stroke", "black")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -381,7 +460,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "purple")
+      .attr("stroke", "#00FF00")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -390,7 +469,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "green")
+      .attr("stroke", "#FFA500")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -399,7 +478,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "pink")
+      .attr("stroke", "#551A8B")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -408,7 +487,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "brown")
+      .attr("stroke", "#808080")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -420,7 +499,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "green")
+      .attr("stroke", "red")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -429,7 +508,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "black")
+      .attr("stroke", "blue")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -438,7 +517,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "pink")
+      .attr("stroke", "black")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -447,7 +526,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "blue")
+      .attr("stroke", "#00FF00")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -456,7 +535,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "red")
+      .attr("stroke", "#FFA500")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -465,7 +544,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "purple")
+      .attr("stroke", "#551A8B")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -474,7 +553,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "orange")
+      .attr("stroke", "#808080")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
@@ -483,7 +562,7 @@ g.append("path")
 	.attr("class","linechart")
       .datum(data)
       .attr("fill", "none")
-      .attr("stroke", "brown")
+      .attr("stroke", "#D8AE47")
       .attr("stroke-linejoin", "round")
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
