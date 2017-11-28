@@ -671,10 +671,10 @@ d3.select('body').select('svg').append('text')
 
 function obese(){
 $('#statesvg').empty();
-document.getElementById("green").innerHTML = "__0-24%";
-document.getElementById("yellow").innerHTML = "__24-27%";
-document.getElementById("orange").innerHTML = "__27-30%";
-document.getElementById("red").innerHTML = "__30+%";
+document.getElementById("green").innerHTML = "&nbsp&nbsp&nbsp0-23.9%";
+document.getElementById("yellow").innerHTML = "&nbsp&nbsp&nbsp24-26.9%";
+document.getElementById("orange").innerHTML = "&nbsp&nbsp&nbsp27-29.9%";
+document.getElementById("red").innerHTML = "&nbsp&nbsp&nbsp30+%";
 document.getElementById("header").innerHTML = "Obesity Rates in the USA";
 
 function tooltipHtml(n, d){	/* function to create html content string in tooltip div. */
@@ -785,10 +785,10 @@ for (var i = 0; i < data.length; i++) {
 }
 function exercise(){
 	$('#statesvg').empty();
-	document.getElementById("green").innerHTML = "__80+%";
-	document.getElementById("yellow").innerHTML = "__75-80%";
-	document.getElementById("orange").innerHTML = "__70-75%";
-	document.getElementById("red").innerHTML = "__0-70%";
+	document.getElementById("green").innerHTML = "&nbsp&nbsp&nbsp80+%";
+	document.getElementById("yellow").innerHTML = "&nbsp&nbsp&nbsp75-79.9%";
+	document.getElementById("orange").innerHTML = "&nbsp&nbsp&nbsp70-74.9%";
+	document.getElementById("red").innerHTML = "&nbsp&nbsp&nbsp0-69.9%";
 	document.getElementById("header").innerHTML = "Exercise Rates in the USA";
 function tooltipHtml(n, d){	/* function to create html content string in tooltip div. */
 		//console.log(d.cerealLink);
@@ -898,10 +898,10 @@ for (var i = 0; i < data.length; i++) {
 }
 function poverty(){
 	$('#statesvg').empty();
-	document.getElementById("green").innerHTML = "__0-14%";
-	document.getElementById("yellow").innerHTML = "__14-17%";
-	document.getElementById("orange").innerHTML = "__17-20%";
-	document.getElementById("red").innerHTML = "__20+%";
+	document.getElementById("green").innerHTML = "&nbsp&nbsp&nbsp0-13.9%";
+	document.getElementById("yellow").innerHTML = "&nbsp&nbsp&nbsp14-16.9%";
+	document.getElementById("orange").innerHTML = "&nbsp&nbsp&nbsp17-19.9%";
+	document.getElementById("red").innerHTML = "&nbsp&nbsp&nbsp20+%";
 	document.getElementById("header").innerHTML = "Poverty Rates in the USA";
 function tooltipHtml(n, d){	/* function to create html content string in tooltip div. */
 		//console.log(d.cerealLink);
