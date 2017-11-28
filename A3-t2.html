@@ -100,10 +100,20 @@ path {
 	font-size: 14px;
 	padding: 1cm;
 }
+.legend1 {
+
+    margin-right: 1em;
+
+}
 h3 {
     margin-top: 15px;
 	font-size: 20px;
 }
+
+p{
+font-size: 14px;
+}
+
 .country-name {
     margin: 0 !important;
 }
@@ -122,15 +132,25 @@ h3 {
 .green { background: #77dd77;}
 .orange { background: #fdfd96;}
 .yellow { background: #ffb347;}
-.red { background: #ff6961;
+.red { background: #ff6961;}
+
+.red2 { background: #ff0000;}
+.blue { background: #0000FF;}
+.black { background: #0e1111;}
+.green2 { background: #00FF00;}
+.orange2 { background: #FFA500;}
+.purple { background: #551A8B;}
+.gray { background: #808080;}
+.mustard { background: #D8AE47;
 }
 </style>
 <body>
   <header>
     <h1 align="center" >CPSC 583 Assignment 3</h1>
 	<h2 align="center" >Poverty Rates, Obesity Rates, and favorite cereals visualized</h2>
-	<p align="center">Click buttons below to see trends on map</p>
-
+	<p align="center" >Click buttons below to see trends on map. Hover over each state to see favorite cereal and trends over years.
+	Select from dropdown to see differences in Age, Gender, Race, Education, Income and Overall over 5 years.</p>
+	<p align="center" >*Trends and favorite cereals will only be displayed on hover</p>
   </header>
     <div class="wrapper">
 	<button type="button" onclick="obese()">Percentage of people with obese weight</button>
@@ -147,12 +167,23 @@ h3 {
 </select>
 	</div>
 <div id="tooltip"></div><!-- div to hold tooltip. -->
-	<div id="legend2">
+	<div style="float:left;"id="legend2">
 	  <h3 id = "header" ></h3>
 	   <div class="legend2"> <p class="country-name"><span class="key-dot green" id="green"></span ></p> </div>
 	   <div class="legend2" > <p class="country-name"><span class="key-dot yellow" id="yellow"></span></p> </div>
 	   <div class="legend2" > <p class="country-name"><span class="key-dot orange" id="orange" ></span></p> </div>
 	   <div class="legend2" > <p class="country-name"><span class="key-dot red" id="red"></span></p> </div>
+	</div>
+	 	 <div style="float:right;width: 500px;" class="legend1" >
+	  <h3>HTML Vertical Legend</h3>
+     <div class="legend1"> <p class="country-name"><span class="key-dot red2"></span>green</p> </div>
+     <div class="legend1"> <p class="country-name"><span class="key-dot blue"></span>Kings</p> </div>
+     <div class="legend1"> <p class="country-name"><span class="key-dot black"></span>Bronx</p> </div>
+	 <div class="legend1"> <p class="country-name"><span class="key-dot green2"></span>green</p> </div>
+     <div class="legend1"> <p class="country-name"><span class="key-dot orange2"></span>Kings</p> </div>
+     <div class="legend1"> <p class="country-name"><span class="key-dot purple"></span>Bronx</p> </div>
+	 <div class="legend1"> <p class="country-name"><span class="key-dot gray"></span>green</p> </div>
+     <div class="legend1"> <p class="country-name"><span class="key-dot mustard"></span>Kings</p> </div>
 	</div>
 <svg width="1700" height="1000" id="statesvg"></svg> <!-- svg to hold the map. -->
 

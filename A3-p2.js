@@ -211,8 +211,8 @@ d3.csv(dataSource, function(d) {
              .attr('text-anchor', 'middle')
 			 .style('fontWeight', 'bold')
              .attr("x", 1350)
-             .attr("y", 200)
-             .text(graphLabel)
+             .attr("y", 50)
+             .text(graphLabel) //copy this later to label line graph
 
   g.append("g")
 		.attr("class","linechart")
@@ -240,6 +240,7 @@ d3.csv(dataSource, function(d) {
       .attr("stroke-linecap", "round")
       .attr("stroke-width", 1.5)
       .attr("d", lineMale);
+	  
 	  
 g.append("path")
 	.attr("class","linechart")
